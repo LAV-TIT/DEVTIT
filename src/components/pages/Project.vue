@@ -62,7 +62,7 @@ const projects = [
 
 <template>
     <section id="portfolio" class="py-20 bg-gray-50 dark:bg-gray-800">
-        <div class="container mx-auto px-6">
+        <div class="container mx-auto px-4 md:px-6">
             <div class="text-center mb-16" data-aos="fade-up">
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4">
                     My <span class="text-[#615fff] dark:text-primary-dark">Projects</span>

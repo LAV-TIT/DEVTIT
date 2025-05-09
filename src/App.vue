@@ -302,7 +302,7 @@ onMounted(() => {
     });
   });
   //==== snow ===========
-  
+
   if (!snowflakesContainer.value) return
 
   for (let i = 0; i < snowflakeCount; i++) {
@@ -356,13 +356,13 @@ onUnmounted(() => {
       pointer-events-none z-50 transition-all duration-200">
   </div>
   <div class="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
-    
+
     <div class="bg-gray-900 w-full overflow-hidden relative">
       <Header :isScrolled="isScrolled" :scrollProgress="scrollProgress" :activeSection="activeSection"
-      :darkMode="darkMode" :menuItems="menuItems" :socials="socials" @toggleDarkMode="toggleDarkMode"
-      @toggleMenu="handleMenuToggle" @closeMenu="closeMenu"></Header>
+        :darkMode="darkMode" :menuItems="menuItems" :socials="socials" @toggleDarkMode="toggleDarkMode"
+        @toggleMenu="handleMenuToggle" @closeMenu="closeMenu"></Header>
 
-      <Hero ref="heroSection"/>
+      <Hero ref="heroSection" />
       <div ref="snowflakesContainer" id="snowflakes-container"></div>
 
       <Skills ref="skillsSection" :skills="skills" />
@@ -374,8 +374,8 @@ onUnmounted(() => {
     <Project />
 
     <StatSection />
-    <CV ref="cvSection"/>
-    <Contact :socials="socials"  ref="contactSection" />
+    <CV ref="cvSection" />
+    <Contact :socials="socials" ref="contactSection" />
 
     <Footer :menuItems="menuItems" :socials="socials" />
 
@@ -386,6 +386,7 @@ onUnmounted(() => {
       <i class="fas fa-arrow-up"></i>
     </button>
   </div>
+
 </template>
 <style>
 @keyframes snowfall {

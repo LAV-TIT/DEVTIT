@@ -8,7 +8,7 @@ defineProps({
 </script>
 <template>
     <section id="contact" class="py-20 bg-gray-50 dark:bg-gray-800" ref="contactSection">
-      <div class="container mx-auto px-6">
+      <div class="container mx-auto px-4 md:px-6">
         <div class="text-center mb-16" data-aos="fade-up">
           <h2 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4">
             Get In Touch
@@ -21,7 +21,7 @@ defineProps({
 
         <div class="flex flex-col lg:flex-row gap-12 overflow-hidden">
           <div class="lg:w-1/2" data-aos="fade-right">
-            <form class="bg-white dark:bg-gray-700 rounded-xl shadow-md p-8">
+            <form class="bg-white dark:bg-gray-700 rounded-xl shadow-md p-4 md:p-8">
               <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div>
                   <label for="name" class="block text-gray-700 dark:text-gray-300 font-medium mb-2">Name</label>
@@ -59,7 +59,7 @@ defineProps({
           </div>
 
           <div class="lg:w-1/2" data-aos="fade-left">
-            <div class="bg-indigo-900 dark:bg-indigo-950 text-white rounded-xl shadow-md p-8 h-full">
+            <div class="bg-indigo-900 dark:bg-indigo-950 text-white rounded-xl shadow-md p-4 md:p-8 h-full">
               <h3 class="text-2xl font-bold mb-6">Contact Information</h3>
 
               <div class="space-y-6">

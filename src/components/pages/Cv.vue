@@ -2,15 +2,15 @@
 
 </script>
 <template>
-    <section id="cv" class="py-20 bg-white dark:bg-gray-700">
-        <div class="container mx-auto px-6 lg:px-15 xl:px-40">
+    <section id="cv" class="py-15 md:py-20 bg-white dark:bg-gray-700">
+        <div class="container mx-auto px-4 md:px-6 lg:px-15 xl:px-40">
             <h2 class="text-3xl font-bold text-center mb-12 gradient-text dark:text-gray-50" data-aos="fade-down">
                 My <span class="text-[#615fff] dark:text-primary-dark">CV</span>
             </h2>
             <div class="flex flex-col lg:flex-row bg-white dark:bg-gray-800 shadow-xl rounded-lg 
             overflow-hidden border border-gray-100 dark:border-gray-500">
                 <!-- Sidebar -->
-                <div class="lg:w-1/3 bg-navy p-8 py-20 bg-indigo-800 text-gray-200 dark:text-gray-200"
+                <div class="lg:w-1/3 bg-navy px-4 md:p-8 py-8 md:py-20 bg-indigo-800 text-gray-200 dark:text-gray-200"
                     data-aos="fade-right">
                     <!-- Profile -->
                     <div class="text-center mb-8">
@@ -45,11 +45,11 @@
                             </div>
                             <div class="flex items-start">
                                 <i class="fas fa-phone-alt mt-1 mr-3 text-sm"></i>
-                                <span class="text-sm">+1 (555) 123-4567</span>
+                                <span class="text-sm">(+855) 889 820 067</span>
                             </div>
                             <div class="flex items-start">
                                 <i class="fas fa-map-marker-alt mt-1 mr-3 text-sm"></i>
-                                <span class="text-sm">San Francisco, CA</span>
+                                <span class="text-sm">Siem Reap, Cambodia</span>
                             </div>
                         </div>
                     </div>
@@ -60,12 +60,12 @@
                         </h3>
                         <div class="space-y-4">
                             <div>
-                                <h4 class="font-medium">B.Sc. Computer Science</h4>
-                                <p class="text-sm text-gray-300">University of California</p>
-                                <p class="text-xs text-gray-400">2018 - 2022</p>
+                                <h4 class="font-medium">Information Technology (IT)</h4>
+                                <p class="text-sm text-gray-300">Build Bright University</p>
+                                <p class="text-xs text-gray-400">2023 - Present</p>
                             </div>
                             <div>
-                                <h4 class="font-medium">Web Development Bootcamp</h4>
+                                <h4 class="font-medium">Web Development</h4>
                                 <p class="text-sm text-gray-300">Code Academy</p>
                                 <p class="text-xs text-gray-400">2021</p>
                             </div>
@@ -143,7 +143,7 @@
                 </div>
 
                 <!-- Main Content -->
-                <div class="lg:w-2/3 p-8 bg-white dark:bg-gray-800" data-aos="fade-left">
+                <div class="lg:w-2/3 p-4 md:p-8 bg-white dark:bg-gray-800" data-aos="fade-left">
                     <!-- Profile Summary -->
                     <div class="mb-8">
                         <h3 class="text-xl font-semibold mb-4 text-gray-800 dark:text-white/90 border-b border-gray-200 dark:border-gray-700 pb-2">

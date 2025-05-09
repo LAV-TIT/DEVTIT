@@ -5,7 +5,7 @@
             'bg-white/90 dark:bg-gray-900/90 backdrop-blur-md shadow-md border-b-0 border-gray-50 dark:border-gray-800 py-3': isScrolled,
             'bg-white/90 dark:bg-gray-900/90 py-3 lg:py-5 ': !isScrolled
         }">
-        <div class="container mx-auto px-6 xl:px-10 flex justify-between items-center">
+        <div class="container mx-auto px-4 md:px-6 xl:px-10 flex justify-between items-center">
             <a title="DEV TIT" href="#" class="text-2xl font-bold text-[#0de19b] transition-all duration-300"
                 :class="{ 'text-xl': isScrolled }"> <i class="text-3xl ri-code-s-slash-line pe-0.5"></i>
                 <span class="bg-gradient-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent">TIT</span>
