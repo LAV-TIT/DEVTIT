@@ -10,6 +10,7 @@ import StatSection from "./components/pages/StatSection.vue";
 import Contact from './components/pages/Contact.vue';
 import CV from "./components/pages/Cv.vue";
 import Footer from "./components/pages/Footer.vue";
+import Test from "./components/Test.vue";
 import * as echarts from "echarts";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -385,8 +386,9 @@ onUnmounted(() => {
       :class="{ 'opacity-100 translate-y-0': showBackToTop, 'opacity-0 translate-y-10 pointer-events-none': !showBackToTop }">
       <i class="fas fa-arrow-up"></i>
     </button>
+    <!-- test color -->
+  
   </div>
-
 </template>
 <style>
 @keyframes snowfall {

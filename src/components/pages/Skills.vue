@@ -220,6 +220,9 @@ const technos = [
 
 </template>
 <style scoped>
+.bg-red-500 {
+    background-color: var(--color-red-500);
+}
 /* .progress-bar {
     transition: width 0.5s ease-out;
 }
