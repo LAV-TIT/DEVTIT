@@ -386,7 +386,6 @@ onUnmounted(() => {
       <i class="fas fa-arrow-up"></i>
     </button>
   </div>
-  
 </template>
 <style>
 @keyframes snowfall {
