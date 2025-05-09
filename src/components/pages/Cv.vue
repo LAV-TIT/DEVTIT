@@ -120,7 +120,7 @@
                         <h3 class="text-lg font-semibold mb-4 border-b border-white border-opacity-20 pb-2">Languages
                         </h3>
                         <div class="space-y-3">
-                            <div>
+                            <!-- <div>
                                 <div class="flex justify-between text-sm mb-1">
                                     <span>English</span>
                                     <span>Fluent</span>
@@ -128,14 +128,14 @@
                                 <div class="w-full bg-gray-700 rounded-full h-1.5">
                                     <div class="bg-red-500 h-1.5 rounded-full" style="width: 100%"></div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div>
                                 <div class="flex justify-between text-sm mb-1">
-                                    <span>Spanish</span>
+                                    <span>English</span>
                                     <span>Intermediate</span>
                                 </div>
                                 <div class="w-full bg-gray-700 rounded-full h-1.5">
-                                    <div class="bg-orange-500 h-1.5 rounded-full" style="width: 60%"></div>
+                                    <div class="bg-orange-500 h-1.5 rounded-full" style="width: 70%"></div>
                                 </div>
                             </div>
                         </div>

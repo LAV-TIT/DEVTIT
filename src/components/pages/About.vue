@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-
+import Img from '../../assets/aboutme.jpg';
 </script>
 <template>
     <section id="about"
@@ -12,9 +12,7 @@
                     <div class="relative">
                         <div
                             class="w-full h-150 bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-800 rounded-2xl overflow-hidden shadow-2xl">
-                            <img title="About Me"
-                                src="https://z-p3-scontent.fpnh18-6.fna.fbcdn.net/v/t39.30808-6/475789728_640960045168822_162423395347598915_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeEbE0L3cE7Po_SQg9KSvbOByZocygzS-V_JmhzKDNL5X1X8_HeBG-7TYtnXweW_X2PMVhDtW3K0RfnXvl7B70gS&_nc_ohc=0t4mLd5_N-EQ7kNvwGWsKVf&_nc_oc=AdldWqC3szVEF7OmMNfgUdix3q7IidCBehwQduSsK4FxLYpFKke2LTJXnoBp7WrcSyA&_nc_zt=23&_nc_ht=z-p3-scontent.fpnh18-6.fna&_nc_gid=MZiWjoVB-xPRcT0-POtcWw&oh=00_AfFX0S9XiUTlGuVsCFrVPZIS7ZTWCi7tYcgCf2G5tWjh-Q&oe=6819212A"
-                                alt="About Me" class="w-full h-full object-cover">
+                            <img title="About Me" :src="Img" alt="About Me" class="w-full h-full object-cover">
                         </div>
                         <div
                             class="absolute -bottom-5 -left-5 w-32 h-32 text-[#10b981] dark:text-white bg-white dark:bg-gray-700 rounded-xl shadow-lg flex items-center justify-center">
