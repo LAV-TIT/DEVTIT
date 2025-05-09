@@ -593,12 +593,3 @@ input[type="number"] {
   mix-blend-mode: difference;
 }
 </style>
-
-
-<!-- <script setup>
-import Home from './components/home.vue';
-</script>
-
-<template>
-  <Home/>
-</template> -->
