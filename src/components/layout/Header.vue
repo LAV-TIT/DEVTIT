@@ -155,4 +155,12 @@ const toggleDarkMode = () => {
 defineExpose({
     headerRef
 });
+
+Swal.fire({
+    title: "<strong>My Portfolio</strong>",
+    icon: "info",
+    html: `<b>My Website under construction</b>`,
+    showCloseButton: true,
+});    
+ 
 </script>
