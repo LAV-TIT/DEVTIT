@@ -8,7 +8,7 @@ import About from './components/pages/About.vue';
 import Project from './components/pages/Project.vue';
 import StatSection from "./components/pages/StatSection.vue";
 import Contact from './components/pages/Contact.vue';
-import CV from "./components/pages/cv.vue";
+import CV from "./components/pages/Cv.vue";
 import Footer from "./components/pages/Footer.vue";
 import * as echarts from "echarts";
 import AOS from 'aos';
