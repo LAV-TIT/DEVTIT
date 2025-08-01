@@ -15,8 +15,6 @@ import * as echarts from "echarts";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { provide } from 'vue';
-// ... your socials ref
-
 // State
 const isScrolled = ref(false);
 const scrollProgress = ref(0);
@@ -159,7 +157,7 @@ const socials = [
 
   {
     name: "YouTube",
-    url: "https://www.youtube.com/yourchannel",
+    url: "https://www.youtube.com/@khmersimpledev",
     icon: "youtube",
     username: "Your Channel",
     subscribers: 15000
