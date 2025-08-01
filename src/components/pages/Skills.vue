@@ -72,13 +72,13 @@ const technos = [
     {
         name: 'JavaScript',
         icon: 'fab fa-js',
-        percentage: 85,
+        percentage: 80,
         color: 'yellow'
     },
     {
         name: 'Tailwind CSS',
         icon: 'fab fa-css3-alt',
-        percentage: 90,
+        percentage: 85,
         color: 'blue'
     },
     {
@@ -90,32 +90,32 @@ const technos = [
     {
         name: 'Vue.js',
         icon: 'fab fa-vuejs',
-        percentage: 85,
+        percentage: 75,
         color: 'emerald'
     },
     {
         name: 'Node.js',
         icon: 'fab fa-node-js',
-        percentage: 75,
+        percentage: 60,
         color: 'green'
     },
     {
         name: 'Express.js',
         icon: 'fab fa-node-js',
-        percentage: 85,
+        percentage: 70,
         color: 'green'
     },
     {
         name: 'Laravel',
         icon: 'fab fa-laravel',
-        percentage: 88,
+        percentage: 75,
         color: 'red'
     },
 
     {
         name: 'ASP.NET',
         icon: 'fab fa-microsoft',
-        percentage: 85,
+        percentage: 75,
         color: 'fuchsia'
     },
 
