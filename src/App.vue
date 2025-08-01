@@ -159,8 +159,8 @@ const socials = [
     name: "YouTube",
     url: "https://www.youtube.com/@khmersimpledev",
     icon: "youtube",
-    username: "Your Channel",
-    subscribers: 15000
+    username: "khmersimpledev",
+    subscribers: 1500
   },
   {
     name: "TikTok",
