@@ -29,7 +29,7 @@
 
       <div class="flex flex-col md:flex-row justify-between items-center">
         <p class="text-gray-500 dark:text-gray-400 text-sm">
-          © 2025 Dev TIT. All rights reserved.
+          © 2025 Khmersimpledev. All rights reserved.
         </p>
         <div class="flex space-x-4 mt-4 md:mt-0">
           <a href="#"
