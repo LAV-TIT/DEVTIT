@@ -92,7 +92,7 @@
                     </a>
                 </div>
                 <p class="text-sm text-indigo-200 dark:text-indigo-300">
-                    © 2025 Dev TIT. All rights reserved.
+                    © {{currentYear}} Khmersimpledev. All rights reserved.
                 </p>
             </div>
         </div>
@@ -137,7 +137,7 @@ const emit = defineEmits(['toggleDarkMode', 'toggleMenu', 'closeMenu']);
 
 const menuOpen = ref(false);
 const headerRef = ref<HTMLElement | null>(null);
-
+const currentYear = new Date().getFullYear();
 const toggleMenu = () => {
     menuOpen.value = !menuOpen.value;
     emit('toggleMenu', menuOpen.value);
