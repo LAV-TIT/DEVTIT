@@ -3,11 +3,21 @@ import { ref } from "vue";
 // Refs
 const events = ref([
     {
+        title: "Incubaction Garage",
+        date: "January 16 -18 2025",
+        icon: ['fas', 'users'],
+        description:
+            "in recognition of successfully completing the incubation garage program held by Build Bright University, Siem Reap Campus on 16-18 January 2025"
+            + "We commend your dedication and creativity throughout the competition.",
+        location: "At BBU, Siem Reap, Cambodia",
+        color: "yellow",
+    },
+    {
         title: "Junior web developer",
         date: "Nov 2024 - Dec 2024",
         icon: ['fas', 'dog'],
-        description:"I attended the junior web developer contest season1 at Build Bright University "
-        + "Campus from 25 November 2024 to 2 December 2024.",
+        description: "I attended the junior web developer contest season1 at Build Bright University "
+            + "Campus from 25 November 2024 to 2 December 2024. learn basic of web and design (html css js and figma)",
         location: "Siem Reap, Cambodia",
         color: "indigo"
     },
@@ -17,7 +27,7 @@ const events = ref([
         icon: ['fas', 'bolt'],
         description:
             "I attending with Siem Reap Coding Club located at YISI office, Siem Reap Province. I have Learn"
-            +"about coding (HTML, CSS and JavaScript) and basic computer.",
+            + "about coding (HTML, CSS and JavaScript) and basic computer.",
         location: "Siem Reap, Cambodia",
         color: "green"
     },
@@ -35,45 +45,39 @@ const events = ref([
         date: "June 2022-December 2022",
         icon: ['fas', 'paint-brush'],
         description:
-            "I join the group of 6 members at PEPY Empowering Youth to do community payback project about the environment. " 
+            "I join the group of 6 members at PEPY Empowering Youth to do community payback project about the environment. "
             + "I have learnt a lot about how to work as a team, project management, and built Strong relationship with my friends",
         location: "Siem Reap, Cambodia",
-        color:"pink",
+        color: "pink",
     },
-     {
+    {
         title: "Soft-Skill Training with Friend International",
         date: "October 2022 – November 2022",
         icon: ['fas', 'paint-brush'],
         description:
-            "I have joined the Soft-Skill Training with Friend International 5 weeks. I learned about soft-skills " 
+            "I have joined the Soft-Skill Training with Friend International 5 weeks. I learned about soft-skills "
             + "such as teamwork, Time management, Self-awareness, Self-Motivation, communication, financial management, conflict resolution, and self-values.",
         location: "Siem Reap, Cambodia",
-        color:"teal",
+        color: "teal",
     },
 
     {
-        title: "UX Design Summit",
-        date: "February 5, 2025",
+        title: "Malk talk",
+        date: "July 09, 2022",
         icon: ['fas', 'paint-brush'],
         description:
-            "Participated in a panel discussion about the intersection of design and development.",
+            "has successfully completed a one-day Media and Information Literacy (MIL) Talk on"
+            + "July 09, 2022, in Siem Reap province. This training was organized by the Cambodian"
+            + "Center for Independent Media (CCIM)",
         location: "Siem Reap, Cambodia",
-        color:"pink",
+        color: "pink",
     },
-    {
-        title: "Local Tech Meetup",
-        date: "January 20, 2025",
-        icon: ['fas', 'users'],
-        description:
-            "Organized and hosted a community event focused on frontend development best practices.",
-        location: "Siem Reap, Cambodia",
-        color:"yellow",
-    },
+
 ])
 
 </script>
 <template>
-    
+
     <section id="events" class="py-20 bg-indigo-50 dark:bg-gray-900" ref="eventsSection">
         <div class="container mx-auto px-4 lg:px-20">
             <div class="text-center mb-16 " data-aos="fade-up">

@@ -1,17 +1,66 @@
 <script lang="ts" setup>
 import { ref, computed, onMounted, onUnmounted, nextTick } from "vue";
-// Refs
+import khmerderm from '@/assets/images/projects/khmerderm.png'
+import morakot from '@/assets/images/projects/morakotangkorrestaurant.png'
+import edoor from '@/assets/images/projects/edoorfrontdesk.png'
+import Beyond from '@/assets/images/projects/beyondangkortours.png'
+// import Beyond from '@/assets/images/projects/beyond.png'
+import zgroup from '@/assets/images/projects/zgroup.png'
+import transaction from '@/assets/images/projects/transaction.png'
+
+
 // Projects data
 const projects = [
     {
-        title: "E-commerce Platform",
-        url: "",
+        title: "Khmer Duerm Restaurant",
+        url: "https://khmerduerm.com",
         description:
-            "A full-featured online shopping platform with real-time inventory management.",
-        image:
-            "https://readdy.ai/api/search-image?query=modern%20e-commerce%20website%20interface%20on%20laptop%20screen%2C%20clean%20minimal%20design%20with%20product%20grid%2C%20shopping%20cart%20functionality%2C%20elegant%20UI%20with%20purple%20and%20blue%20accents%2C%20professional%20e-commerce%20platform%20visualization&width=400&height=300&seq=project1&orientation=landscape",
-        technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+            "Modern restaurant website built with WordPress and Elementor, featuring clean UI and optimized performance.",
+        image: khmerderm,
+        technologies: ["WordPress", "Elementor", "CSS", "PHP", "MySQL"],
     },
+    {
+        title: "Morakotangkor Restaurant",
+        url: "https://www.morakotangkorrestaurant.com",
+        description:
+            "SEO-friendly restaurant website built with CMS Made Simple, focusing on simplicity and fast loading speed.",
+        image: morakot,
+        technologies: ["CMS Made Simple", "JavaScript", "CSS", "PHP", "MySQL"],
+    },
+    {
+        title: "eDoor Front Desk",
+        url: "https://www.edoorfrontdesk.com",
+        description:
+            "Elegant website with SEO optimization, built using CMS Made Simple and designed for smooth navigation.",
+        image: edoor,
+        technologies: ["CMS Made Simple", "JavaScript", "CSS", "PHP", "MySQL"],
+    },
+    {
+        title: "Beyond Angkor Tours",
+        url: "https://beyondangkortours.com",
+        description:
+            "Travel and tour website built with WordPress, responsive design and SEO for strong online presence.",
+        image: Beyond,
+        technologies: ["WordPress", "Elementor", "CSS", "PHP", "MySQL"],
+    },
+    {
+        title: "Z Group",
+        url: "https://zgroup.asia",
+        description:
+            "Corporate website developed with CMS Made Simple, featuring minimalist design and strong SEO optimization.",
+        image: zgroup,
+        technologies: ["CMS Made Simple", "JavaScript", "CSS", "PHP", "MySQL"],
+    },
+    {
+        title: "Transaction Technology",
+        url: "https://www.transaction.technology",
+        description:
+            "Professional tech website built with CMS Made Simple, optimized for speed, SEO, and usability.",
+        image: transaction,
+        technologies: ["CMS Made Simple", "JavaScript", "CSS", "PHP", "MySQL"],
+    },
+
+    
     {
         title: "Health & Fitness App",
         url: "",
@@ -21,42 +70,33 @@ const projects = [
             "https://readdy.ai/api/search-image?query=fitness%20app%20interface%20on%20smartphone%2C%20workout%20tracking%2C%20nutrition%20planning%2C%20health%20metrics%20dashboard%2C%20modern%20mobile%20UI%20with%20purple%20and%20blue%20color%20scheme%2C%20professional%20fitness%20application%20visualization&width=400&height=300&seq=project2&orientation=landscape",
         technologies: ["React Native", "Firebase", "HealthKit", "Google Fit"],
     },
-    {
-        title: "Real Estate Platform",
-        url: "",
-        description:
-            "Web application for property listings with virtual tours and mortgage calculator.",
-        image:
-            "https://readdy.ai/api/search-image?query=real%20estate%20website%20interface%20on%20computer%20screen%2C%20property%20listings%20with%20high%20quality%20images%2C%20map%20integration%2C%20modern%20property%20search%20UI%20with%20purple%20and%20blue%20accents%2C%20professional%20real%20estate%20platform%20visualization&width=400&height=300&seq=project3&orientation=landscape",
-        technologies: ["Vue.js", "Express", "PostgreSQL", "Google Maps API"],
-    },
-    {
-        title: "Task Management Tool",
-        url: "",
-        description:
-            "Collaborative project management application with real-time updates and analytics.",
-        image:
-            "https://readdy.ai/api/search-image?query=project%20management%20dashboard%20with%20task%20boards%2C%20timeline%20visualization%2C%20team%20collaboration%20features%2C%20modern%20task%20management%20UI%20with%20purple%20and%20blue%20color%20scheme%2C%20professional%20productivity%20tool%20interface&width=400&height=300&seq=project4&orientation=landscape",
-        technologies: ["React", "Redux", "Socket.io", "MongoDB"],
-    },
-    {
-        title: "AI-Powered Chatbot",
-        url: "",
-        description:
-            "Intelligent customer service chatbot with natural language processing capabilities.",
-        image:
-            "https://readdy.ai/api/search-image?query=AI%20chatbot%20interface%20with%20conversation%20thread%2C%20natural%20language%20processing%20visualization%2C%20chat%20window%20with%20bot%20responses%2C%20modern%20messaging%20UI%20with%20purple%20and%20blue%20accents%2C%20professional%20chatbot%20application%20visualization&width=400&height=300&seq=project5&orientation=landscape",
-        technologies: ["TensorFlow.js", "Node.js", "NLP", "WebSockets"],
-    },
-    {
-        title: "Financial Dashboard",
-        url: "",
-        description:
-            "Data visualization platform for tracking investments and financial performance.",
-        image:
-            "https://readdy.ai/api/search-image?query=financial%20dashboard%20with%20stock%20charts%2C%20investment%20portfolio%20visualization%2C%20performance%20metrics%2C%20modern%20finance%20UI%20with%20purple%20and%20blue%20data%20visualization%2C%20professional%20financial%20analytics%20platform%20interface&width=400&height=300&seq=project6&orientation=landscape",
-        technologies: ["Vue.js", "D3.js", "Express", "Alpha Vantage API"],
-    },
+    // {
+    //     title: "Real Estate Platform",
+    //     url: "",
+    //     description:
+    //         "Web application for property listings with virtual tours and mortgage calculator.",
+    //     image:
+    //         "https://readdy.ai/api/search-image?query=real%20estate%20website%20interface%20on%20computer%20screen%2C%20property%20listings%20with%20high%20quality%20images%2C%20map%20integration%2C%20modern%20property%20search%20UI%20with%20purple%20and%20blue%20accents%2C%20professional%20real%20estate%20platform%20visualization&width=400&height=300&seq=project3&orientation=landscape",
+    //     technologies: ["Vue.js", "Express", "PostgreSQL", "Google Maps API"],
+    // },
+    // {
+    //     title: "Task Management Tool",
+    //     url: "",
+    //     description:
+    //         "Collaborative project management application with real-time updates and analytics.",
+    //     image:
+    //         "https://readdy.ai/api/search-image?query=project%20management%20dashboard%20with%20task%20boards%2C%20timeline%20visualization%2C%20team%20collaboration%20features%2C%20modern%20task%20management%20UI%20with%20purple%20and%20blue%20color%20scheme%2C%20professional%20productivity%20tool%20interface&width=400&height=300&seq=project4&orientation=landscape",
+    //     technologies: ["React", "Redux", "Socket.io", "MongoDB"],
+    // },
+    // {
+    //     title: "AI-Powered Chatbot",
+    //     url: "",
+    //     description:
+    //         "Intelligent customer service chatbot with natural language processing capabilities.",
+    //     image:
+    //         "https://readdy.ai/api/search-image?query=AI%20chatbot%20interface%20with%20conversation%20thread%2C%20natural%20language%20processing%20visualization%2C%20chat%20window%20with%20bot%20responses%2C%20modern%20messaging%20UI%20with%20purple%20and%20blue%20accents%2C%20professional%20chatbot%20application%20visualization&width=400&height=300&seq=project5&orientation=landscape",
+    //     technologies: ["TensorFlow.js", "Node.js", "NLP", "WebSockets"],
+    // },
 ];
 </script>
 
@@ -69,7 +109,7 @@ const projects = [
                 </h2>
                 <p class="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
                     A showcase of my recent projects and the technologies I've worked
-                    with.
+                    with real projects.
                 </p>
             </div>
 
@@ -84,12 +124,12 @@ const projects = [
                             class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                             <div class="px-6 py-4 w-full">
                                 <div class="flex justify-between items-center">
-                                    <a href="#"
+                                    <a :href="project.url" target="_blank"
                                         class="!rounded-button whitespace-nowrap bg-white dark:bg-gray-200 text-gray-900 px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-300 transition-colors duration-300 cursor-pointer">
                                         View Project
                                     </a>
                                     <div class="flex space-x-2">
-                                        <a href="#"
+                                        <a href="https://github.com/laV-TIT" target="_blank"
                                             class="size-8 flex pleace-items-center bg-white/20 hover:bg-white/40 p-2 rounded-full transition-colors duration-300 cursor-pointer">
                                             <i class="fab fa-github text-white"></i>
                                         </a>

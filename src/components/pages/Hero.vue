@@ -1,8 +1,7 @@
 <template>
-
-
     <section id="home" class="pt-15 lg:pt-20 bg-gray-50 dark:bg-gradient-to-b from-gray-900 via-purple-900 to-black  text-gray-800 dark:text-gray-200 
-      flex items-center justify-center relative overflow-hidden page-transition " ref="sectionRef" style="animation-delay: 0.1s; opacity: 1;">
+      flex items-center justify-center relative overflow-hidden page-transition " ref="sectionRef"
+        style="animation-delay: 0.1s; opacity: 1;">
         <div class="absolute inset-0 overflow-hidden">
             <div
                 class="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-blue-50 to-green-50 dark:from-gray-800 dark:to-gray-900 opacity-70">
@@ -39,10 +38,9 @@
                         </div>
                         <div
                             class="relative w-full h-full bg-white dark:bg-gray-800 rounded-full overflow-hidden shadow-2xl border-4 border-white dark:border-gray-700 float-animation">
-                            <img title="DEV TIT" src="https://i.pinimg.com/736x/33/07/a3/3307a386b206282ce7e0f0136889f714.jpg"
-                                alt="DEV TIT" class="w-full h-full object-cover">
+                            <img title="DEV TIT" :src="profile" alt="DEV TIT" class="w-full h-full object-cover">
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -58,12 +56,11 @@
 </template>
 
 <script setup lang="ts">
-  import { ref, defineExpose } from 'vue';
-  
-  const sectionRef = ref<HTMLElement | null>(null);
-  
-  // Expose the ref to parent component
-  defineExpose({
+import { ref } from 'vue';
+const sectionRef = ref<HTMLElement | null>(null);
+import profile from '@/assets/images/mr-tit.png';
+// Expose the ref to parent component
+defineExpose({
     sectionRef
-  });
-  </script>
+});
+</script>

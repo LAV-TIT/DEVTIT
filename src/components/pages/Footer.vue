@@ -6,7 +6,7 @@
           <a title="DEV TIT" href="#" class="text-2xl font-bold">
             <span class="bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">Khmersimpledev</span>
           </a>
-          <p class="text-gray-400 mt-2">Creative Web Developer & Designer</p>
+          <p class="text-gray-400 mt-2">Web Developer</p>
         </div>
 
         <div class="flex flex-wrap justify-center gap-6 mb-6 md:mb-0">
