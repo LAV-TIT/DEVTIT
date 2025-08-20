@@ -4,7 +4,7 @@
       <div class="flex flex-col md:flex-row justify-between items-center">
         <div class="mb-6 md:mb-0">
           <a title="DEV TIT" href="#" class="text-2xl font-bold">
-            <span class="bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">Dev TIT</span>
+            <span class="bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">Khmersimpledev</span>
           </a>
           <p class="text-gray-400 mt-2">Creative Web Developer & Designer</p>
         </div>
