@@ -18,7 +18,7 @@
                             <img src="https://i.pinimg.com/736x/33/07/a3/3307a386b206282ce7e0f0136889f714.jpg" alt="Profile" class="w-full h-full object-cover">
                         </div>
                         <h1 class="text-2xl font-bold mb-1">Lav Tit</h1>
-                        <p class="text-sm uppercase tracking-wider text-gray-300 mb-4">Senior WEB DEVELOPER</p>
+                        <p class="text-sm uppercase tracking-wider text-gray-300 mb-4">Junior WEB DEVELOPER</p>
                         <div class="flex justify-center space-x-3 text-indigo-600">
                             <a href="#"
                                 class="w-8 h-8 rounded-full bg-white bg-opacity-20 flex items-center justify-center hover:bg-opacity-30 transition">
