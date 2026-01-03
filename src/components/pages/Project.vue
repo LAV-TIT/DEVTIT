@@ -1,12 +1,15 @@
-<script lang="ts" setup>
+<script setup>
 import { ref, computed, onMounted, onUnmounted, nextTick } from "vue";
 import khmerderm from '@/assets/images/projects/khmerderm.png'
 import morakot from '@/assets/images/projects/morakotangkorrestaurant.png'
 import edoor from '@/assets/images/projects/edoorfrontdesk.png'
-import Beyond from '@/assets/images/projects/beyondangkortours.png'
+import Beyond from '@/assets/images/projects/beyondangkortours.png';
+
 // import Beyond from '@/assets/images/projects/beyond.png'
-import zgroup from '@/assets/images/projects/zgroup.png'
-import transaction from '@/assets/images/projects/transaction.png'
+import zgroup from '@/assets/images/projects/zgroup.png';
+import transaction from '@/assets/images/projects/transaction.png';
+import smartshop from '@/assets/images/projects/smart_shop.png';
+
 
 
 // Projects data
@@ -59,7 +62,14 @@ const projects = [
         image: transaction,
         technologies: ["CMS Made Simple", "JavaScript", "CSS", "PHP", "MySQL"],
     },
-
+    {
+        title: "Smart Shop",
+        url: "https://smart-shop-pied.vercel.app",
+        description:
+            "Discover the perfect blend of style, functionality, and innovation at Smart Shop.",
+        image: smartshop,
+        technologies: ["Html", "Css", "Js"],
+    },
     
     {
         title: "Health & Fitness App",
@@ -70,6 +80,7 @@ const projects = [
             "https://readdy.ai/api/search-image?query=fitness%20app%20interface%20on%20smartphone%2C%20workout%20tracking%2C%20nutrition%20planning%2C%20health%20metrics%20dashboard%2C%20modern%20mobile%20UI%20with%20purple%20and%20blue%20color%20scheme%2C%20professional%20fitness%20application%20visualization&width=400&height=300&seq=project2&orientation=landscape",
         technologies: ["React Native", "Firebase", "HealthKit", "Google Fit"],
     },
+
     // {
     //     title: "Real Estate Platform",
     //     url: "",
