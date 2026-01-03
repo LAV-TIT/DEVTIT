@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-
+import profile from '@/assets/images/mr_tit.jpg';
 </script>
 <template>
     <section id="cv" class="py-15 md:py-20 bg-white dark:bg-gray-700">
@@ -14,8 +14,8 @@
                     data-aos="fade-right">
                     <!-- Profile -->
                     <div class="text-center mb-8">
-                        <div class="w-32 h-32 rounded-full border-4 border-white mx-auto mb-4 overflow-hidden">
-                            <img src="https://i.pinimg.com/736x/33/07/a3/3307a386b206282ce7e0f0136889f714.jpg" alt="Profile" class="w-full h-full object-cover">
+                        <div class="w-35 h-35 rounded-full border-4 border-white mx-auto mb-4 overflow-hidden">
+                            <img :src="profile" alt="Profile" class="w-full h-full object-cover">
                         </div>
                         <h1 class="text-2xl font-bold mb-1">Lav Tit</h1>
                         <p class="text-sm uppercase tracking-wider text-gray-300 mb-4">Junior WEB DEVELOPER</p>

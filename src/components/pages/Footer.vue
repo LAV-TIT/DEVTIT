@@ -14,8 +14,14 @@
             class="text-gray-400 hover:text-white transition-colors duration-300 cursor-pointer">
             {{ item.name }}
           </a>
+         
         </div>
-
+         <a title="QR Studio Tools" target="_blank" href="https://v0-free-qrcode.vercel.app"
+              class="whitespace-nowrap bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300 cursor-pointer relative overflow-hidden group">
+              <span
+                 class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-purple-600 to-indigo-500 animate-gradient-x infinite"></span>
+              <span class="relative z-10">QR Studio Tools</span>
+          </a>
         <div class="flex space-x-4">
           <a :title="social.name" v-for="social in socials" :key="social.name" :href="social.url" 
             class="text-gray-400 hover:text-white transition-colors duration-300 cursor-pointer"
@@ -29,7 +35,7 @@
 
       <div class="flex flex-col md:flex-row justify-between items-center">
         <p class="text-gray-500 dark:text-gray-400 text-sm">
-          © {{currentYear}} Khmersimpledev. All rights reserved.
+          © {{currentYear}} Khmersimpledev. All rights reserved. By Mr.TIT
         </p>
         <div class="flex space-x-4 mt-4 md:mt-0">
           <a href="#"

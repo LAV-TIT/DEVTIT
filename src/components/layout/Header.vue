@@ -20,7 +20,7 @@
         }">
                     {{ item.name }}
                 </a>
-
+            
                 <a title="Download CV" :href="cv" download="Tit's_CV.pdf"
                     class="whitespace-nowrap bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300 cursor-pointer relative overflow-hidden group">
                     <span

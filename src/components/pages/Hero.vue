@@ -37,7 +37,7 @@
                         <div class="absolute inset-0 bg-[#615fff] dark:bg-primary-dark rounded-full opacity-20 blur-xl">
                         </div>
                         <div
-                            class="relative w-full h-full bg-white dark:bg-gray-800 rounded-full overflow-hidden shadow-2xl border-4 border-white dark:border-gray-700 float-animation">
+                            class="relative w-full h-full bg-white dark:bg-gray-800 rounded-full overflow-hidden shadow-2xl border-10 border-white dark:border-gray-700 float-animation">
                             <img title="DEV TIT" :src="profile" alt="DEV TIT" class="w-full h-full object-cover">
                         </div>
 
@@ -58,7 +58,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 const sectionRef = ref<HTMLElement | null>(null);
-import profile from '@/assets/images/mr-tit.png';
+import profile from '@/assets/images/mr_tit2.jpg';
 // Expose the ref to parent component
 defineExpose({
     sectionRef
