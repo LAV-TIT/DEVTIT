@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-gray-900 dark:bg-gray-800 text-white py-12">
+  <footer class="bg-gray-900 dark:bg-gray-800 text-white py-0 md:py-12">
     <div class="container mx-auto px-6">
       <div class="flex flex-col md:flex-row justify-between items-center">
         <div class="mb-6 md:mb-0">
@@ -17,7 +17,7 @@
          
         </div>
          <a title="QR Studio Tools" target="_blank" href="https://v0-free-qrcode.vercel.app"
-              class="whitespace-nowrap bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300 cursor-pointer relative overflow-hidden group">
+              class="mb-3 md:mb-0 whitespace-nowrap bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300 cursor-pointer relative overflow-hidden group">
               <span
                  class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-purple-600 to-indigo-500 animate-gradient-x infinite"></span>
               <span class="relative z-10">QR Studio Tools</span>
@@ -37,7 +37,7 @@
         <p class="text-gray-500 dark:text-gray-400 text-sm">
           © {{currentYear}} Khmersimpledev. All rights reserved. By Mr.TIT
         </p>
-        <div class="flex space-x-4 mt-4 md:mt-0">
+        <div class="flex space-x-4 mt-4 mb-6 md:mt-0">
           <a href="#"
             class="text-gray-500 dark:text-gray-400 hover:text-gray-300 text-sm transition-colors duration-300 cursor-pointer">
             Privacy Policy

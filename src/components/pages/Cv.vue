@@ -2,7 +2,7 @@
 import profile from '@/assets/images/mr_tit.jpg';
 </script>
 <template>
-    <section id="cv" class="py-15 md:py-20 bg-white dark:bg-gray-700">
+    <section id="cv" class="py-10 md:py-20 bg-white dark:bg-gray-700">
         <div class="container mx-auto px-4 md:px-6 lg:px-15 xl:px-40">
             <h2 class="text-3xl font-bold text-center mb-12 gradient-text dark:text-gray-50" data-aos="fade-down">
                 My <span class="text-[#615fff] dark:text-primary-dark">CV</span>

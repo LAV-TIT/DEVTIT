@@ -134,6 +134,12 @@ const skills = [
 
 const socials = [
   {
+    name: "Telegram",
+    url: "https://t.me/LAVTIT2",
+    icon: "telegram",
+    username: "LAVTIT2",
+  },
+  {
     name: "Facebook",
     url: "https://web.facebook.com/tit1912",
     icon: "facebook",

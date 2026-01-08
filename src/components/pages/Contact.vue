@@ -7,9 +7,9 @@ defineProps({
 });
 </script>
 <template>
-    <section id="contact" class="py-20 bg-gray-50 dark:bg-gray-800" ref="contactSection">
+    <section id="contact" class="py-10 md:py-20 bg-gray-50 dark:bg-gray-800" ref="contactSection">
       <div class="container mx-auto px-4 md:px-6 overflow-hidden">
-        <div class="text-center mb-16" data-aos="fade-up">
+        <div class="text-center mb-8 md:mb-16" data-aos="fade-up">
           <h2 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4">
             Get In Touch
           </h2>
@@ -99,7 +99,7 @@ defineProps({
 
               <div class="mt-12">
                 <h4 class="font-medium text-lg mb-4">Follow Me</h4>
-                <div class="flex space-x-4">
+                <div class="flex space-x-2 md:space-x-4">
                   <a :title="item.name" v-for="item in socials" :key="item.name" :href="item.url" target="_blank"
                     class="bg-indigo-700/50 dark:bg-indigo-800/50 hover:bg-indigo-700 dark:hover:bg-indigo-800 p-3 rounded-lg transition-colors duration-300 cursor-pointer">
                     <i :class="`fab fa-${item.icon} text-xl`"></i>
