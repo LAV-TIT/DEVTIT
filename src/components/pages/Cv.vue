@@ -47,7 +47,7 @@ import profile from '@/assets/images/mr_tit.jpg';
                             </div>
                             <div class="flex items-start">
                                 <i class="fas fa-phone-alt mt-1 mr-3 text-sm"></i>
-                                <span class="text-sm">(+855) 889 820 067</span>
+                                <span class="text-sm">(+855) 967 817 992</span>
                             </div>
                             <div class="flex items-start">
                                 <i class="fas fa-map-marker-alt mt-1 mr-3 text-sm"></i>
