@@ -41,7 +41,9 @@ import profile from '@/assets/images/mr_tit.jpg';
                         <div class="space-y-3">
                             <div class="flex items-start">
                                 <i class="fas fa-envelope mt-1 mr-3 text-sm"></i>
-                                <span class="text-sm">lav.tit@example.com</span>
+                                 <a href="mailto:lavtit.nssp2021@gmail.com" class="text-indigo-200 dark:text-indigo-300 
+                                     hover:text-white transition-colors duration-300">lavtit.nssp2021@gmail.com
+                                 </a>
                             </div>
                             <div class="flex items-start">
                                 <i class="fas fa-phone-alt mt-1 mr-3 text-sm"></i>
