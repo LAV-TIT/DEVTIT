@@ -90,9 +90,9 @@ defineProps({
                   </div>
                   <div>
                     <h4 class="font-medium text-lg">Phone</h4>
-                    <a href="tel:+855889820067"
+                    <a href="tel:+855967817992"
                       class="text-indigo-200 dark:text-indigo-300 hover:text-white transition-colors duration-300">
-                      (+855) 889 820 067</a>
+                      (+855) 967 817 992</a>
                   </div>
                 </div>
               </div>
